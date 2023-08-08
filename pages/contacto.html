@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PÁGINA FINAL</title>
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/contacto.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+	<header>
+		<nav class="inicio">
+			<div class="buscador">
+				<label class="bi-search" for="buscar">
+					<input type="text" id="buscar" placeholder="Buscar producto"></label>
+			</div>
+			<div class="sesion">
+				<a href="./ingreso.html"><i class="bi bi-person-circle"></i></a>
+				<a href="#"><i class="bi bi-cart2"></i></a>
+			</div>
+		</nav>
+
+		<nav class="contenedorPadre">
+			<div class="arauca">
+				<a href="../index.html" class="logo"><i class="bi bi-fire"></i>Arauca</a>
+			</div>
+			<div class="menu">
+				<a href="./productos.html" class=" productos">PRODUCTOS</a>
+				<a href="./contacto.html">CONTACTO</a>
+			</div>
+		</nav>
+		<br>
+	</header>
+
+	<main>
+		<div class="tituloC">
+			<h1>Contacto</h1>
+		</div>
+		<div class="contacto">
+			<form class="formularioC" id="formulario">
+				<label for="nombre">
+					<input type="text" id="nombre" name="nombre" placeholder="Nombre*">
+				</label>
+				<br>
+				<label for="apellido">
+					<input type="text" id="apellido" name="apellido" placeholder="Apellido*">
+				</label>
+				<br>
+				<label for="email">
+					<input type="email" class="inpuT" name="email" id="email" placeholder="Ingresa tu email*">
+				</label>
+				<br>
+				<label for="comentario">
+					<textarea name="comentario" id="comentario" cols="40" rows="10" placeholder="Mensaje*"></textarea>
+				</label>
+				<br>
+				<button type="reset" id="reset"> <i class="bi bi-trash3-fill basurero"></i> Borrar Datos</button>
+				<br>
+				<div>
+					<button type="submit" onclick="mensaje()" class="enviar">Enviar</button>
+				</div>
+			</form>
+			<div class="sucursalC">
+				<ul>
+					<li>Dirección: Calle Ucrania 78 - Obera Misiones</li>
+					<li>WhatsApp: 3700-978645</li>
+					<li>Email: arauca@gmail.com</li>
+				</ul>
+				<p class="horario"> Horario de Atención</p>
+				<ul>
+					<li>Lunes a Viernes: 8 hs a 16 hs</li>
+					<li>Sábados: 8 hs a 12 hs</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div Class="contenedor">
+			<div class="arauca">
+				<a href="../index.html" class="logo"><i class="bi bi-fire"></i>Arauca</a>
+			</div>
+		</div>
+	</footer>
+	</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="../js/contacto.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
