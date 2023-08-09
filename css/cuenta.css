@@ -1,3 +1,12 @@
+.tituloC{
+    text-align: center;
+    font-size: 24px;
+    padding: 16px;
+    color: rgba(20, 19, 19, 0.781);
+}
+main{
+    padding-bottom: 300px;
+}
 .table{
     background-color: aliceblue;
     margin: 15px;
@@ -11,5 +20,4 @@
 }
 .cliente{
     padding-top: 10px;
-
 }

@@ -8,7 +8,12 @@
 header{
     border-bottom: rgba(0, 0, 0, 0.418) solid 3px;
 } 
-
+.tituloC{
+    text-align: center;
+    font-size: 24px;
+    padding: 16px;
+    color: rgba(20, 19, 19, 0.781);
+}
 .productos{
     display: flex;
     flex-direction: row;
